@@ -1,0 +1,194 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+@font-face {
+    font-family: 'Etna';
+    src: url('../fonts/Etna.woff2') format('woff2') , url('../fonts/Etna.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.wrapper{
+    min-height: 100%;
+	overflow: hidden;
+}
+
+p{
+    font-size: 28px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    line-height: 1.5;
+}
+
+
+h1{
+    display: inline-block;
+    font-family: "Roboto Serif", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: bisque;
+    line-height: 1.5;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+
+.about{
+    margin: 0 50px; 
+}
+
+.about > span{
+    color: red;
+    font-family: "Ubunto";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 2;
+   
+}
+
+
+.ex{
+    font-family: 'Etna';
+    font-weight: 400;
+    font-size: 30px;
+    margin: 50px 50px 50px 50px ;
+}
+
+
+/*Картинка по центру*/
+.first-img{ 
+    display:block;
+    max-height: 500px;
+    max-width: 500px;
+    margin: 0px auto 25px;
+    
+
+
+}
+.comment{
+    font-family: 'Etna';
+    font-weight: 400;
+    color: rebeccapurple ;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.first-point{
+    overflow: scroll;
+    font-size: 40px;
+    background-color: darkkhaki;
+    height: 500px;
+    margin-bottom: 25px;
+    
+}
+
+h3{ color: chocolate;
+    font-size: 43px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.second-img{
+    max-width: 900px;
+    margin: 0 auto 30px;
+}
+
+
+.third-img{
+    background-color: violet;
+    display: block;
+    max-width: 1000px;
+    margin: 0 auto 80px;
+    border: 5px solid black;
+}
+
+.fourth-img{
+    display: block;
+    margin: 0 0 0 auto;
+}
+.ily{
+    display: block;
+    background-color: wheat;
+    /* к сожалению с <P> только text-align */
+    text-align: right;
+    
+
+}
+
+.sixth-img{
+    
+    margin: 0 200px 100px 200px;
+}
+
+.border-radius{
+    border: 10px double firebrick;
+    border-radius: 10px 20px 30px 40px;
+    font-size: 32px;
+}
+
+.seventh-img{
+    background-color: blue;
+    display: block;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    margin: 0 auto 30px;
+    /* Картинка ещё больше сжалась при padding */
+    padding: 20px 20px 20px 20px;
+}
+
+.russia{ 
+    min-width: 500px;
+    min-height: 500px;
+
+}
+
+.opacity-check{
+    border: 5px dotted dodgerblue ;
+    opacity: 0.3;
+}
+
+
+.eigth-img{
+    display: block;
+    min-width: 900px;
+    margin: 0 auto 100px;
+    background-color: black;
+    border: 5px dotted green;
+    border-radius: 15px 10px 5px 25px;
+}
+
+.display-none{
+    display: none;
+}
+
+p.about-border{
+    /*подключили через link */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    max-width: 500px;
+    border: 5px solid green;
+}
+
+
+
+
+
+.twelveth-img{
+  display: block;
+  max-width: 600px;
+  margin: 0 auto 100px;
+
+}
+
